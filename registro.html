@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <section >
+        <div class="izquierda">
+            <img src="img/Hotelia horizontal blanco.svg" alt="" class="imagen">
+            <h1>Eres más que bienvenido</h1>
+        </div>
+
+        <div class="derecha">
+            <form action="" >
+                <div class="divtitle">
+                    <h1>Regístrate</h1>
+                </div>
+
+                <div class="div1">
+                    <label for="documento">Tipo de documento</label>
+                    <br>
+                    <select name="documento" id="documento" placeholder="Escoja una opcion" class="campo">
+                        <option value="" disabled selected>Elija su tipo de documento</option>
+                        <option value="">Cedula de ciudadania</option>
+                        <option value="">Tarjeta de identidad</option>
+                        <option value="">Cedula extranjera</option>
+                    </select>
+                </div>
+
+                <div class="div2">
+                    <label for="num_documento">Número de documento</label>
+                    <br>
+                    <input type="number" name="num_documento" id="num_documento" class="campo">
+                </div>
+
+                <div class="div1">
+                    <label for="nombre">Nombres</label>
+                    <br>
+                    <input type="text" name="nombres" id="nombres"  class="campo">
+                </div>
+
+                <div class="div2">
+                    <label for="apellido">Apellidos</label>
+                    <br>
+                    <input type="text" name="apellido" id="apellido"  class="campo">
+                </div>
+
+                <div class="div1">
+                    <label for="nacimiento">Fecha de nacimiento</label>
+                    <br>
+                    <input type="date" name="nacimiento" id="nacimiento" class="campo">
+                </div>
+
+                <div class="div2">
+                    <label for="genero">Género</label>
+                    <br>
+                    <input type="radio" id="masculino" name="genero">Masculino
+                    <input type="radio" id="femenino" name="genero">Femenino
+                    <input type="radio" id="otro" name="genero">Otro
+                </div>
+
+                <div class="div1">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" class="campo">
+                </div>
+
+                <div class="div2">
+                    <label for="telefono">Teléfono de contacto</label>
+                    <br>
+                    <input type="number" id="telefono" class="campo">
+                </div>
+
+                <div class="div1">
+                    <label for="pais">País de origen</label>
+                    <br>
+                    <select name="pais" id="pais" class="campo">
+                        <option value="0" disabled selected>Escoja un pais</option>
+                        <option value="1">Colombia</option>
+                        <option value="2">Venezuela</option>
+                    </select>
+                </div>
+
+                <div class="div2">
+                    <label for="foto">Foto</label>
+                    <br>
+                    <input type="file" name="foto" id="foto" class="campo">
+                </div>
+
+                <div class="div1">
+                    <label for="clave">Contraseña</label>
+                    <br>
+                    <input type="password" name="clave" id="clave" class="campo">
+                </div>
+
+                <div class="div2">
+                    <label for="c_clave">Confirmar contraseña</label>
+                    <br>
+                    <input type="password" name="c_clave" id="c_clave" class="campo">
+                </div>
+
+                <div class="condiciones">
+                    <input type="checkbox" id="condicion">
+                    <label for="condicion">Acepto Terminos y Condiciones</label>
+                </div>
+
+                <div>
+                    <label for=""></label>
+                    <input type="submit" value="Ingresar" class="boton">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
