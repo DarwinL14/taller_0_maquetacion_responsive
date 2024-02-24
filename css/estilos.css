@@ -62,6 +62,7 @@ nav{
     height: 3rem;
 }
 
+/*descripcion*/
 #features{
     background: url(../img/index/bg-features.png);
     color: white;
@@ -203,3 +204,6 @@ nav a:hover{
 /*Resolución notebooks*/
 @media screen and (min-width: 1308px){
 }
+
+/*ubicacion*/
+
