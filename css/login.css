@@ -1,0 +1,33 @@
+body{
+    background-image: url(../img/login/bg-login.png);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3083cc;
+    opacity: 50%;
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    border-radius: 5%;
+    background-image: url(../img/login/vector-login.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 6%;
+
+}
+
+.logo{
+    color: #80006e;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.imagen{
+    width: 50%;
+    margin-right: 11rem;
+}
