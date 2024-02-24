@@ -96,9 +96,11 @@ nav {
 }
 
 .menu {
-    grid-area: menu;
-    display: grid;
     background-color: rgba(1, 10, 52, 0.838);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
 .menu-hr {
